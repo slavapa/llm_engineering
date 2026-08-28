@@ -17,7 +17,12 @@ alwaysApply: true
 2. Add upstream once: `git remote add upstream https://github.com/ed-donner/llm_engineering.git`
 3. Sync course updates: `git fetch upstream && git merge upstream/main` (resolve conflicts in course files only).
 4. Push your work: `git push origin main`.
-5. Optional PR to upstream: put exercise solutions in `weekN/community-contributions/slavapa/` only.
+5. Optional PR to upstream: put **shareable** solutions in `weekN/community-contributions/slavapa/` only.
+
+## Personal vs shareable work
+
+- **`weekN/slavapa/`** — personal course exercises; commit to your fork only, **never** upstream PR.
+- **`weekN/community-contributions/slavapa/`** — polished contributions you may submit upstream (e.g. Playwright scraper).
 
 ## Exercise sites
 
@@ -30,7 +35,8 @@ Use these sites for exercises unless the user specifies otherwise:
 ## Where to put your work
 
 - **Do not modify** core course notebooks (`weekN/day*.ipynb`) unless explicitly asked.
-- Put solutions in `weekN/community-contributions/slavapa/`.
+- Personal exercises → `weekN/slavapa/` (fork only).
+- Shareable contributions → `weekN/community-contributions/slavapa/` (optional upstream PR).
 - Keep notebook outputs cleared before commits.
 - Never commit `.env`, API keys, or the `temp/` folder.
 
