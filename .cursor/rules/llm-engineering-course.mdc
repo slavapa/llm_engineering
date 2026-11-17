@@ -19,10 +19,12 @@ alwaysApply: true
 4. Push your work: `git push origin main`.
 5. Optional PR to upstream: put **shareable** solutions in `weekN/community-contributions/slavapa/` only.
 
-## Personal vs shareable work
+## Where exercises go
 
-- **`weekN/slavapa/`** — personal course exercises; commit to your fork only, **never** upstream PR.
-- **`weekN/community-contributions/slavapa/`** — polished contributions you may submit upstream (e.g. Playwright scraper).
+- **`weekN/community-contributions/slavapa/`** — all exercise solutions (Day 1 Playwright, Day 2 Ollama, etc.); optional upstream PR from here only.
+- **Do not modify** core course notebooks (`weekN/day*.ipynb`) unless explicitly asked.
+- Keep notebook outputs cleared before commits.
+- Never commit `.env`, API keys, or the `temp/` folder.
 
 ## Exercise sites
 
@@ -31,14 +33,6 @@ Use these sites for exercises unless the user specifies otherwise:
 - https://kabbalahmedia.info/en/
 - https://www.michaellaitman.com/
 - https://kabuconnect.com/
-
-## Where to put your work
-
-- **Do not modify** core course notebooks (`weekN/day*.ipynb`) unless explicitly asked.
-- Personal exercises → `weekN/slavapa/` (fork only).
-- Shareable contributions → `weekN/community-contributions/slavapa/` (optional upstream PR).
-- Keep notebook outputs cleared before commits.
-- Never commit `.env`, API keys, or the `temp/` folder.
 
 ## Environment
 
