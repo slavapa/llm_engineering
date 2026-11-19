@@ -24,6 +24,7 @@ Confirm [http://localhost:11434/](http://localhost:11434/) shows `Ollama is runn
 ## Files
 
 - `scraper_playwright.py` — drop-in replacement for `week1/scraper.py` with Playwright fallback (cookie dismiss, JS SPA support)
+- `day1_email_subject.ipynb` — Day 1 exercise: suggest email subject lines from a draft body
 - `day1_playwright_exercise.ipynb` — Day 1 summarizer demo with Playwright + OpenAI
 - `day2_ollama_summarizer.ipynb` — Day 2 homework: same summarizer via local Ollama (`llama3.2`)
 - `requirements.txt` — Playwright dependency
